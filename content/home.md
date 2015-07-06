@@ -1,4 +1,6 @@
-title: This is home page
 tags: 
+title: This is home page
 
-Test23
+## Main links
+
+[Science-minded "So what, who cares?"](/so_what__who_cares/)
