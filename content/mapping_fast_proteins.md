@@ -8,3 +8,5 @@ title: Mapping fast protein folding with multiple-site fluorescent probes
 *Who cares?* Biologists who want to validate their simulations. More oppurtunities are emerging to connect experimental and simulated data which will help guide new experiments and revise all energy functions that are used for simulations.
 
 For decades researches have been trying to simulate the inner workings of biology from the bottom up. One of the smalles pieces of this giant puzzle is the protein - usually consisting of a few thousand atoms. However, even for a few thousand atoms the best computers in the world can only simulate them for one **millionith** of a second. That's a problem
+
+![image](https://upload.wikimedia.org/wikipedia/commons/c/c5/Protein_folding_schematic.png)
