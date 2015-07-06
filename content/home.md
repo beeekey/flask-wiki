@@ -1,5 +1,5 @@
+title: Home
 tags: 
-title: This is home page
 
 ## Main links
 
