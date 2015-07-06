@@ -1,9 +1,9 @@
-tags: 
 title: So What, Who Cares?
+tags: 
 
 [The idea is from Lisa Schmeiser](http://tinyletter.com/lschmeiser/letters/so-what-who-cares-vol-2-issue-89-what-s-the-big-deal-about-cognitive-division-of-labor)
 
-Here summary includes
+Here summary includes:
 
 - 1 study
 - 481 words
