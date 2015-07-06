@@ -50,6 +50,12 @@ If you just want to try something out or debug something, you can execute
 the app with `python app.py` which will run the development server in debug
 mode. Have fun.
 
+## See the versioning of files with a command like
+
+```bash
+git log --follow -p -- file
+```
+
 ## Theming
 The templates are based on jinja2. I used
 [bootstrap](http://twitter.github.com/bootstrap/) for the design.
