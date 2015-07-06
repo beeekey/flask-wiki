@@ -4,6 +4,7 @@ import os
 import re
 import markdown
 import json
+import git
 from functools import wraps
 from flask import (Flask, render_template, flash, redirect, url_for, request,
                    abort)
@@ -21,6 +22,7 @@ from flask.ext.script import Manager
 """
 
 app = Flask(__name__)
+app.config['DEBUG'] = True
 app.config['CONTENT_DIR'] = 'content'
 app.config['TITLE'] = 'wiki'
 try:
@@ -162,7 +164,10 @@ class Page(object):
                 line = u'%s: %s\n' % (key, value)
                 f.write(line.encode('utf-8'))
             f.write('\n'.encode('utf-8'))
-            f.write(self.body.replace('\r\n', '\n').encode('utf-8'))
+            f.write(self.body.replace('\r\n', '\n').encode('utf-8'))       
+        repo = git.Repo(folder).git
+        repo.add(self.path)
+        repo.commit(m='test')
         if update:
             self.load()
             self.render()
